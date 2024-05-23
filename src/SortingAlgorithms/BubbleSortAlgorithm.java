@@ -4,10 +4,13 @@ import java.util.Arrays;
 
 public class BubbleSortAlgorithm {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5};
+        int[] sortedArr = {1, 2, 3, 4, 5};
+        int[] arr = {10, 34, -9, -78, 0, 12, -89, 56};
 
-        bubbleSort2(arr);
+        bubbleSort(arr);
+        bubbleSort2(sortedArr);
         System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(sortedArr));
         
     }
     
