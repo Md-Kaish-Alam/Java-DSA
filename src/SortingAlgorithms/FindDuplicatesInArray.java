@@ -31,6 +31,6 @@ public class FindDuplicatesInArray {
     public static void swapping(int[] nums, int first, int second) {
         int temp = nums[first];
         nums[first] = nums[second];
-        nums[first] = temp;
+        nums[second] = temp;
     }
 }
